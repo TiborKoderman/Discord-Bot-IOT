@@ -4,7 +4,7 @@ const Discord = require("discord.js"); //include Discord library
 const fs = require("fs"); //includa file system (ki je del node)
 
 var mqtt = require('mqtt')
-var client  = mqtt.connect('mqtt://xeoqs.ddns.net')
+var client  = mqtt.connect('mqtt://koderman.net')
 
 const bot = new Discord.Client({disableEveryone: true}); //definira konstanto bot
 bot.commands = new Discord.Collection(); //definiramo botcommands kot discord coollection(A Map with additional utility methods. This is used throughout discord.js rather than Arrays for anything that has an ID, for significantly improved performance and ease-of-use.)
